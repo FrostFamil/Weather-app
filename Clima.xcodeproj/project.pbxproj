@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D0E02E5251DC2820097578B /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E02E4251DC2820097578B /* WeatherData.swift */; };
+		8D0E02E8251DC8F40097578B /* WeatherModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E02E7251DC8F40097578B /* WeatherModal.swift */; };
 		8D8919B7251D239200DA792A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8919B6251D239200DA792A /* WeatherManager.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8D0E02E4251DC2820097578B /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		8D0E02E7251DC8F40097578B /* WeatherModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModal.swift; sourceTree = SOURCE_ROOT; };
 		8D8919B6251D239200DA792A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				8D8919B6251D239200DA792A /* WeatherManager.swift */,
 				8D0E02E4251DC2820097578B /* WeatherData.swift */,
+				8D0E02E7251DC8F40097578B /* WeatherModal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0E02E8251DC8F40097578B /* WeatherModal.swift in Sources */,
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
 				8D0E02E5251DC2820097578B /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
